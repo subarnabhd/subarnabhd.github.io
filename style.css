@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: quicksand;
+    background-color: #000000;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
+}
+h5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+h4{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px!important
+;
+}
+.owl-dots{
+    display: none !important;;
+    visibility: hidden!important;
+
+}
+.hamro-container{
+    background-image: linear-gradient(326deg, #320132 0%, #33004a 74%);
+
+}
+/* StartHeader  */
+.nav-link{
+    color: #ffffff;
+}
+.navbar{
+    background: #5c008d;
+    padding: 16px;
+}
+.navbar > .active {
+    color: aqua;
+    background-color: chartreuse;    
+  }
+.logo img{
+    height: 100%;
+    width: 90px;
+    object-fit: cover;
+}
+
+/* Button */
+.icon-btn p{
+    padding: 10px 14px;
+    margin-bottom: 0;
+}
+.btn{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 8px 12px;
+}
+.btn:hover{
+    background-size: 200% auto;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+}
+.btn-box{
+    border: 1px solid #eb9dff;
+    padding: 3px 5px;
+    border-radius: 6px ;
+}
+.btn-box p{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.btn-one{
+    background-size: 200% auto;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+}
+.btn-one:hover{
+    background-image:none;
+    background-color: #b542e9;
+}
+.btn-two{
+    border-radius: 34px;
+}
+
+/* End Button */
+
+
+
+
+
+/* Start Carousel */
+.item{
+    background-color: linear-gradient(to top, #c471f5 0%, #fa71cd 100%)!important;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px!important;
+    border-radius: 6px;
+    padding: 2px;
+    border: 2px solid #9c0ac0;
+    box-shadow: inset 0 0 10px #e000e0;
+}
+.item:hover{
+    box-shadow: inset 0 0 10px #ff25de;
+    border: 2px solid #d739ff;
+    box-shadow: rgba(255, 28, 229, 0.422) 0px 4px 12px;
+}
+.item-with-img{
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px;
+   
+}
+.owl-with-image .owl-stage-outer{
+    height: 160px;
+}
+
+
+.carousel-inner{
+    height: 180px;
+    border-radius: 12px;
+    background-position: center center;
+}
+.carousel-item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ffffff!important;
+    border-radius: 0%;
+    background-clip: padding-box;
+    border: 1px;
+    transition: background-color .6s ease-in-out,width .2s ease-in-out;
+}
+.carousel-indicators .active {
+    width: 12px;
+    background-color: #b118a2!important;
+    border-radius: 0px;
+    color: #5F00DB;
+}
+/* --------- */
+.cat-box .item{
+    height: 55px!important;
+    border-radius: 2px solid #FF00F5;
+    background: linear-gradient(134.98deg, #FF00F5 1.58%, #5E28A5 47.36%, #9747FF 94.63%),
+    linear-gradient(134.98deg, #C800C0 1.58%, #9657E8 50.52%, #5F00DB 94.63%);
+}
+.cat-box .item:hover{
+    background: linear-gradient(134.98deg, #5F00DB 1.58%, #A857E8 51.98%, #C800C0 94.63%),
+                linear-gradient(262.33deg, #FF00F5 4.41%, #5E28A5 55.28%, #9747FF 107.78%);
+    box-shadow: 0px 0px 7px 0px #9747FF80;
+}
+/* --------- */
+
+
+/* End carousel */
+
+
+   
+
+
+/*Start of login*/
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+.form-container{
+    padding: 50px;
+    width: 30vw;
+}
+.g-boxlogin{
+    height: 100vh;
+}
+.login-intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    border-radius: 35px!important;
+    font-size: 16px!important;
+    padding: 6px 12px 6px 12px !important;
+    text-align: center;
+}
+input::placeholder{
+    font-size: 14px;
+    text-align: center;
+    color: #A857E8;
+}
+.form-control:focus {
+    border-color: #e728b1;
+    text-align: center;
+    box-shadow: 0 0 0 0.25rem rgba(213, 13, 253, 0.25);
+}
+input:focus{
+    box-shadow: none;
+    border: 1px solid #FF00F5;
+}
+.col-form-label{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+/*End of Login*/
+
+
+
+  /* Footer */
+  .footer{
+    background: #1c0029;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+  .nav-ico img{
+    height: 50px;
+    padding-bottom: 5px;
+
+  }
+  .footer-icon-box{
+    padding: 15px 0px 8px 0px;
+    background: #ba00c00e;
+    color: #ffffff;
+    margin: 8px;
+    border-radius: 6px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.footer-icon-box:hover{
+    color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
+    background: #39005f;
+  
+}
+.footer-icon-box i{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.footer-icon-box p{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    }
+  /* Footer */
+
+
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+    .navbar{
+        padding: 8px;
+    }
+    .owl-item{
+        height: 45px;
+        width: 150px;
+    }
+    .form-container{
+        width: 90vw;
+        padding: 10px;
+    }
+    .loader-container{
+        padding: 20px;
+    }
+
+    .btn{
+        font-size: 11px;
+        padding: 6px 10px;
+
+    }
+    .logo img{
+        width: 55px;
+    }
+    .btn-box{
+        padding: 1px 6px!important;
+    }
+
+    .footer img{
+        height: 45px!important;
+        width: 45px!important;
+    }
+    .cat-box .item {
+        height: 45px!important;
+    }
+
+    element.style {
+        background: url(./4.png);
+        background-position: center center;
+        background-size: cover;
+    }
+    .item{
+        height: 105px!important;
+    }
+    .item-with-img {
+        border-radius: 6px;
+    }
+    .owl-with-image .owl-stage-outer{
+        height: 115px;
+    }
+    .carousel-inner{
+        height: 125px;
+        border-radius: 6px;
+    }
+    .carousel-item img{
+        height: 125px;
+    }
+    .ca
+
+  }
+
+
+/* Mobile */
