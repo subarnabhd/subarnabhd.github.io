@@ -239,8 +239,8 @@ input:focus{
     margin: auto;
     bottom: 5px;
     right:5px;
-    background: #1c0029;
-    border-radius: 6px;
+    background: #35004e;
+    border-radius: 12px;
   }
   .nav-ico img{
     height: 35px;
@@ -249,15 +249,15 @@ input:focus{
 
   }
   .footer-icon-box{
-    padding: 12px;
-    background: #ba00c00e;
+    padding: 8px;
+    background: #7c01803b;
     color: #ffffff;
-    margin: 3px;
+    margin: 6px;
     border-radius: 12px;
 }
 .footer-icon-box:hover{
     color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
-    background: #39005f;
+    background: #9c009c;
   
 }
 .footer-icon-box i{
