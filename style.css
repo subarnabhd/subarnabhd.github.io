@@ -48,10 +48,15 @@ h4{
 /* Button */
 
 .gcard {
-    width: 55px;
-    height: 55px;
+    align-items: center;
+    margin: auto;
+    top: 15px;
+    display: flex;
+    
+    width: 40px;
+    height: 40px;
     background: url("/home.png") no-repeat;
-    display: inline-block;
+    display: block;
 }
 .gcard:hover {
     background: url("/other.png") no-repeat;
@@ -246,26 +251,23 @@ input:focus{
 
   /* Footer */
   .footer{
-    max-width: 330px;
+    max-width:344px;
     align-items: center;
     margin: auto;
     bottom: 5px;
-    right:5px;
     background: #35004e;
     border-radius: 12px;
   }
   .nav-ico img{
     height: 35px;
     width: 100%;
-    /* padding-bottom: 5px; */
-
   }
   .footer-icon-box{
     padding: 8px;
     background: #7c01803b;
     color: #ffffff;
     margin: 6px;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 .footer-icon-box:hover{
     color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
@@ -313,11 +315,7 @@ input:focus{
     .btn-box{
         padding: 1px 6px!important;
     }
-/* 
-    .footer img{
-        height: 45px!important;
-        width: 45px!important;
-    } */
+
     .cat-box .item {
         height: 45px!important;
     }
