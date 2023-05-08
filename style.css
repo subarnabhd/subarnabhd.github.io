@@ -251,7 +251,7 @@ input:focus{
 
   /* Footer */
   .footer{
-    max-width:280px;
+    max-width:355px;
     align-items: center;
     margin: auto;
     bottom: 10px;
@@ -260,15 +260,15 @@ input:focus{
     border: 1px solid #b92bf7;
 
   }
-  .nav-ico img{
+  /* .nav-ico img{
     height: 35px;
     width: 100%;
-  }
+  } */
   .footer-icon-box{
     padding: 5px;
     background: #7c01803b;
     color: #ffffff;
-    margin: 3px;
+    margin: 5px;
     border-radius: 8px;
 }
 .footer-icon-box:hover{
