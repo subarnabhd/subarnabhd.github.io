@@ -254,7 +254,7 @@ input:focus{
     max-width:330px;
     align-items: center;
     margin: auto;
-    bottom: 5px;
+    bottom: 10px;
     background: #35004e;
     border-radius: 12px;
   }
