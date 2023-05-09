@@ -370,14 +370,14 @@ input:focus{
         border-radius: 6px;
     }
     .carousel-item img{
-        height: 125px;
+        width: 205px;
     }
-    .center {
-        width: 50%;
-      }
+    
     .form-container{
-        width: 30vw;
-        background-color: red;
+        width: 60vw;
+    }
+    .logo-login img{
+        width: 125px;
     }
 
   }
