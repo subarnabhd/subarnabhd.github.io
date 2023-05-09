@@ -45,24 +45,84 @@ h4{
     object-fit: cover;
 }
 
-/* Button */
 
-.gcard {
+/* Start Footer Nav Bar */
+.fotico {
     align-items: center;
     margin: auto;
     top: 15px;
     display: flex;
-    
     width: 40px;
     height: 40px;
-    background: url("/home.png") no-repeat;
     display: block;
+    }
+    .ihome {
+        background: url("/icons/home.png") no-repeat;
+    }
+    .ihome:hover {
+        background: url("/icons/other.png") no-repeat;
+    }
+    .islot {
+        background: url("/icons/slot.png") no-repeat;
+    }
+    .islot:hover {
+        background: url("/icons/other.png") no-repeat;
+    }
+    .ifish {
+        background: url("/icons/fish.png") no-repeat;
+    }
+    .ifish:hover {
+        background: url("/icons/other.png") no-repeat;
+    }
+    .ifav {
+        background: url("/icons/other.png") no-repeat;
+    }
+    .ifav:hover{
+        background: url("/icons/fish.png") no-repeat;
+    }
+    .iconnect {
+        background: url("/icons/connect.png") no-repeat;
+    }
+    .iconnect:hover {
+        background: url("/icons/fish.png") no-repeat;
+    }
+
+.footer{
+    max-width:355px;
+    align-items: center;
+    margin: auto;
+    bottom: 10px;
+    background: #35004e;
+    border-radius: 12px;
+    border: 1px solid #b92bf7;
+
+  }
+  .footer-icon-box{
+    padding: 5px;
+    background: #7c01803b;
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 8px;
 }
-.gcard:hover {
-    background: url("/other.png") no-repeat;
+.footer-icon-box:hover{
+    color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
+        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+     
+  
 }
+.footer-icon-box i{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.footer-icon-box p{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    }
+/* End Footer Nav Bar */
 
 
+/* Button */
 .icon-btn p{
     padding: 10px 14px;
     margin-bottom: 0;
@@ -209,8 +269,8 @@ h4{
     padding: 10px;
   }
 .form-container{
-    padding: 50px;
-    width: 30vw;
+    padding: 25px;
+    width: 20vw;
 }
 .g-boxlogin{
     height: 100vh;
@@ -247,46 +307,6 @@ input:focus{
 }
 /*End of Login*/
 
-
-
-  /* Footer */
-  .footer{
-    max-width:355px;
-    align-items: center;
-    margin: auto;
-    bottom: 10px;
-    background: #35004e;
-    border-radius: 12px;
-    border: 1px solid #b92bf7;
-
-  }
-  /* .nav-ico img{
-    height: 35px;
-    width: 100%;
-  } */
-  .footer-icon-box{
-    padding: 5px;
-    background: #7c01803b;
-    color: #ffffff;
-    margin: 5px;
-    border-radius: 8px;
-}
-.footer-icon-box:hover{
-    color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
-        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
-     
-  
-}
-.footer-icon-box i{
-    font-size: 18px;
-    padding-bottom: 5px;
-}
-.footer-icon-box p{
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 400;
-    }
-  /* Footer */
 
 
 /* Mobile */
