@@ -61,31 +61,31 @@ h4{
         background: url("/icons/home.png") no-repeat;
     }
     .ihome:hover {
-        background: url("/icons/other.png") no-repeat;
+        background: url("/icons/ihome.png") no-repeat;
     }
     .islot {
         background: url("/icons/slot.png") no-repeat;
     }
     .islot:hover {
-        background: url("/icons/other.png") no-repeat;
+        background: url("/icons/islot.png") no-repeat;
     }
     .ifish {
         background: url("/icons/fish.png") no-repeat;
     }
     .ifish:hover {
-        background: url("/icons/other.png") no-repeat;
+        background: url("/icons/ifish.png") no-repeat;
     }
     .ifav {
         background: url("/icons/other.png") no-repeat;
     }
     .ifav:hover{
-        background: url("/icons/fish.png") no-repeat;
+        background: url("/icons/iother.png") no-repeat;
     }
     .iconnect {
         background: url("/icons/connect.png") no-repeat;
     }
     .iconnect:hover {
-        background: url("/icons/fish.png") no-repeat;
+        background: url("/icons/iconnect.png") no-repeat;
     }
 
 .footer{
@@ -107,7 +107,7 @@ h4{
 }
 .footer-icon-box:hover{
     color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
-        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+        background-image: linear-gradient(to right, #DA22FF 0%, #e133ee  51%, #DA22FF  100%);
      
   
 }
@@ -314,6 +314,59 @@ input:focus{
     width: 100%;
 }
 /*End of Login*/
+
+/* Loder End */
+body{
+    
+   
+}
+.gloader{
+    width: auto;
+    height: auto;
+    /* transform: translate(-50%,-50%); */
+    background-color: #2a9d8f;
+    background-image: url("images/background.jpg")!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+    
+.progress{
+    position: absolute;
+    top: 80%;
+    align-items: center;
+    /* position: relative; */
+    height: 10px;
+    width: 60%;
+    border: 10px solid #620085;
+    border-radius: 15px;
+}
+.progress .color{
+    position: absolute;
+    background-color: #9f03a7;
+    width: 0px;
+    height: 10px;
+    border-radius: 24px;
+    animation: progres 4s infinite linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
+/* Loder End */
 
 
 
