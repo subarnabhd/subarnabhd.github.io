@@ -57,34 +57,35 @@ h4{
     display: block;
     
     }
+    
     .ihome {
         background: url("/icons/home.png") no-repeat;
     }
-    .ihome:hover {
+    .footer-icon-box:hover .ihome{
         background: url("/icons/ihome.png") no-repeat;
     }
     .islot {
         background: url("/icons/slot.png") no-repeat;
     }
-    .islot:hover {
+    .footer-icon-box:hover .islot{
         background: url("/icons/islot.png") no-repeat;
     }
     .ifish {
         background: url("/icons/fish.png") no-repeat;
     }
-    .ifish:hover {
+    .footer-icon-box:hover .ifish{
         background: url("/icons/ifish.png") no-repeat;
     }
     .ifav {
         background: url("/icons/other.png") no-repeat;
     }
-    .ifav:hover{
+    .footer-icon-box:hover .ifav{
         background: url("/icons/iother.png") no-repeat;
     }
     .iconnect {
         background: url("/icons/connect.png") no-repeat;
     }
-    .iconnect:hover {
+    .footer-icon-box:hover .iconnect{
         background: url("/icons/iconnect.png") no-repeat;
     }
 
@@ -108,7 +109,7 @@ h4{
 .footer-icon-box:hover{
     color: radial-gradient(circle at 2.9% 7.7%, rgb(164, 14, 176) 0%, rgb(119, 17, 209) 90%);
         background-image: linear-gradient(to right, #DA22FF 0%, #e133ee  51%, #DA22FF  100%);
-     
+
   
 }
 .footer-icon-box i{
