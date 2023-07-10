@@ -456,9 +456,9 @@ input:focus{
 
 /* MANISH  */
 
-*{
+/* *{
     overflow: hidden;
-}
+} */
 
 .cat-name{
     font-size: 1rem;
@@ -491,13 +491,11 @@ input:focus{
 section{
     padding: 10px;
 }
-.three-card-container{
-    gap: 10px;
+
+.back-btn a{
+    color: #ffffff;
 }
-.three-card-container .col{
-    height: 150px!important;
-    width: 124px!important;
-}
+
 .three-card-container .col .card{
     height: 100%!important;
     width: 100%!important;
@@ -507,11 +505,26 @@ section{
     border: 2px solid #9c0ac0;
     box-shadow: inset 0 0 10px #e000e0;
 }
-.three-card-container .col .card img{
-    height: 100%!important;
-    width: 100%!important;
-    object-fit: cover;
-}
-.back-btn a{
-    color: #ffffff;
-}
+@media only screen and (max-width: 600px) {
+    .three-card-container{
+        gap: 10px;
+    }
+    .three-card-container .col{
+        height: 150px!important;
+        width: 124px!important;
+    }
+    .three-card-container .col .card{
+        height: 100%!important;
+        width: 100%!important;
+        background: none;
+        border-radius: 6px;
+        padding: 2px;
+        border: 2px solid #9c0ac0;
+        box-shadow: inset 0 0 10px #e000e0;
+    }
+    .three-card-container .col .card img{
+        height: 100%!important;
+        width: 100%!important;
+        object-fit: cover;
+    }
+  }
