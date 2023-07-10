@@ -16,7 +16,18 @@ h4{
     font-weight: 700;
     font-size: 12px;
     margin: 0px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
+
+.item a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
 .owl-dots{
     display: none !important;
     visibility: hidden!important;
@@ -280,6 +291,7 @@ h4{
   }
 .form-container{
     width: 20vw;
+    min-width: 250px;
 }
 .g-boxlogin{
     height: 100vh;
@@ -434,3 +446,72 @@ input:focus{
 
 
 /* Mobile */
+
+
+
+
+
+
+
+
+/* MANISH  */
+
+*{
+    overflow: hidden;
+}
+
+.cat-name{
+    font-size: 1rem;
+    color: white;
+}
+
+.back-btn{
+    font-size: 2rem;
+    color: white;
+}
+
+.cat-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.cat-sec .col-lg-4{
+    width: 33.33%;
+    aspect-ratio: 5 / 4;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.cat-sec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section{
+    padding: 10px;
+}
+.three-card-container{
+    gap: 10px;
+}
+.three-card-container .col{
+    height: 150px!important;
+    width: 124px!important;
+}
+.three-card-container .col .card{
+    height: 100%!important;
+    width: 100%!important;
+    background: none;
+    border-radius: 6px;
+    padding: 2px;
+    border: 2px solid #9c0ac0;
+    box-shadow: inset 0 0 10px #e000e0;
+}
+.three-card-container .col .card img{
+    height: 100%!important;
+    width: 100%!important;
+    object-fit: cover;
+}
+.back-btn a{
+    color: #ffffff;
+}
